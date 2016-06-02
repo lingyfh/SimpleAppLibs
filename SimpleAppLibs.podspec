@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SimpleAppLibs'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SimpleAppLibs.'
+  s.summary          = "一些通用组件的集合"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'SimpleAppLibs' => ['SimpleAppLibs/Assets/*.png']
   # }
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
 
   s.frameworks = 'UIKit'
   s.requires_arc = true
