@@ -7,6 +7,8 @@
 //
 
 #import "SAViewController.h"
+#import <SimpleAppLibs/SAHeader.h>
+#import <SimpleAppLibs/AFNetwork.h>
 
 @interface SAViewController ()
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    PLog(@"asdf");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

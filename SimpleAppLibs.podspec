@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/SimpleAppLibs'
+  s.homepage         = 'https://github.com/lingyfh/SimpleAppLibs'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lingyfh' => 'fangshulong@androidesk.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/SimpleAppLibs.git', :tag => s.version.to_s }
+  s.author           = { 'lingyfh' => 'lingyfh@gmial.com' }
+  s.source           = { :git => 'https://github.com/lingyfh/SimpleAppLibs.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -36,7 +36,25 @@ TODO: Add long description of the pod here.
   #   'SimpleAppLibs' => ['SimpleAppLibs/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+
+  s.frameworks = 'UIKit'
+  s.requires_arc = true
+
+  # 网络请求
+  s.dependency 'AFNetworking', '~> 3.0'
+  # 图片加载
+  s.dependency 'SDWebImage', '~>3.7'
+  # webp格式图片支持
+  s.dependency 'SDWebImage/WebP'
+  # 进度Loading等
+  s.dependency 'MBProgressHUD', '~> 0.9.2'
+  # 下拉刷新上拉刷新等
+  s.dependency 'MJRefresh'
+  # 写布局使用
+  s.dependency 'Masonry'
+  # Toast
+  s.dependency 'Toast', '~> 3.0'
+
+
 end
