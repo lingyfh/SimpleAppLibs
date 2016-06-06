@@ -19,7 +19,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    PLog(@"asdf");
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
