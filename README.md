@@ -22,7 +22,7 @@ pod "SimpleAppLibs"
 
 ## Author
 
-lingyfh, fangshulong@androidesk.com
+lingyfh, lingyfh@gmail.com
 
 ## License
 
